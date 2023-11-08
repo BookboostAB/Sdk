@@ -1,9 +1,9 @@
 {
-    "name": "bookboost/php-sdk",
+    "name": "bookboost/sdk",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Bookboost\\PhpSdk\\": "src/"
+            "Bookboost\\": "src/"
         }
     },
     "authors": [

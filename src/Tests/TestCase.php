@@ -1,5 +1,5 @@
 <?php
-namespace Bookboost\PhpSdk\Tests;
+namespace Bookboost\Tests;
 abstract class TestCase extends \PHPUnit\Framework\TestCase
 {
     protected $apiKey = null;

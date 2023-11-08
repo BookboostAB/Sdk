@@ -1,6 +1,6 @@
 <?php
 
-namespace Bookboost\PhpSdk\Exceptions;
+namespace Bookboost\Exceptions;
 
 class InvalidUrl extends \Exception
 {

@@ -1,10 +1,9 @@
 <?php
 
-namespace Bookboost\PhpSdk\Services;
+namespace Bookboost\Services;
 
-use Bookboost\PhpSdk\Exceptions\InvalidUrl;
-use Throwable;
-use Bookboost\PhpSdk\Abstractions\Service;
+use Bookboost\Exceptions\InvalidUrl;
+use Bookboost\Abstractions\Service;
 
 class Signature extends Service
 {

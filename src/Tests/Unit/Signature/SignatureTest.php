@@ -1,11 +1,10 @@
 <?php
 
-namespace Bookboost\PhpSdk\Tests\Unit\Signature;
+namespace Bookboost\Tests\Unit\Signature;
 
-use Bookboost\PhpSdk\Bookboost;
-use Bookboost\PhpSdk\Exceptions\InvalidUrl;
-use Bookboost\PhpSdk\Services\Signature;
-use Bookboost\PhpSdk\Tests\TestCase;
+use Bookboost\Sdk;
+use Bookboost\Exceptions\InvalidUrl;
+use Bookboost\Tests\TestCase;
 
 class SignatureTest extends TestCase
 {
@@ -13,7 +12,7 @@ class SignatureTest extends TestCase
     public function __construct(string $name)
     {
         parent::__construct($name);
-        $this->service = (new Bookboost($this->apiKey))->signature;
+        $this->service = (new Sdk($this->apiKey))->signature;
     }
 
     public function testItWillNotSignInvalidUrl()

@@ -1,8 +1,6 @@
 <?php
 
-namespace Bookboost\PhpSdk\Abstractions;
-
-use Bookboost\PhpSdk\Services\Signature;
+namespace Bookboost\Abstractions;
 
 abstract class Service
 {

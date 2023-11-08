@@ -1,15 +1,15 @@
 <?php
 
-namespace Bookboost\PhpSdk;
+namespace Bookboost;
 
-use Bookboost\PhpSdk\Services\Signature;
+use Bookboost\Services\Signature;
 
 /**
  * Class Bookboost
  * @property string $apiKey
  * @method Signature signature($data)
  */
-class Bookboost
+class Sdk
 {
     public $signature = null;
 

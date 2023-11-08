@@ -1,14 +1,14 @@
 <?php
 
-namespace Bookboost\PhpSdk\Tests;
+namespace Bookboost\Tests;
 
-use Bookboost\PhpSdk\Bookboost;
+use Bookboost\Sdk;
 
 class BaseTest extends TestCase
 {
     public function testBase()
     {
-        $facade = new Bookboost($this->apiKey);
+        $facade = new Sdk($this->apiKey);
 
         $this->assertObjectHasProperty('signature', $facade);
     }
